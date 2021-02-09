@@ -1,0 +1,8 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: yellow;
+    justify-content: space-around;
+
+}
