@@ -2,12 +2,10 @@
     
     display: flex;
     width: 100%;
-    height: 8em;
+    height: 7em;
     white-space: 10em;
     border-bottom: 1px solid black;
-    padding: 4em;
-    
-    
+    justify-content: space-around;  
     
 }
 
@@ -17,9 +15,6 @@
     background-color:rgb(237, 233, 230);
     align-items: center;
     justify-content: center;
-    
-    
-
 
 }
 
@@ -27,6 +22,21 @@
     display: flex;
     flex-direction: column;
     background-color:rgb(237, 233, 230);
+    width: 100%;
 
+}
 
+.downlogo-marca{
+    display: flex;
+    width: 90%;
+    margin-left: 3em;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.downlogo-foto{
+    width: 10%;
+    margin-right: 2em;
+    margin-top: 2em;
+   
 }
