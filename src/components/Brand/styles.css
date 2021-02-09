@@ -1,0 +1,14 @@
+.brand{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5.8em;
+    height: 3.5em;
+    justify-content: center;
+    
+
+}
+
+brand h2{
+    color: rgb(0, 85, 153);
+}
