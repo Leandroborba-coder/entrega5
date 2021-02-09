@@ -14,8 +14,9 @@
 .rights{
     width: 100%;
     display:flex;
-    flex-direction: column;
     background-color:rgb(237, 233, 230);
+    align-items: center;
+    justify-content: center;
     
     
 

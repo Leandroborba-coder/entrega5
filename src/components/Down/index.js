@@ -7,12 +7,12 @@ function Down(){
     <div className="princ">
 
         <div className="downlogo">
-            <img src={logoheader}/> 
+            <h2>ioGO!</h2> 
             
         </div>
 
         <div className="rigths">
-            <h5>2021 / Verde Campo / Todos os direitos reservados</h5>
+            <h5>2021 / ioGO! / Todos os direitos reservados</h5>
 
         </div>
 
