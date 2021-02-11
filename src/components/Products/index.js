@@ -4,12 +4,20 @@ import produto1 from '../Assets/produto1.PNG';
 import produto2 from '../Assets/produto2.PNG';
 import produto3 from '../Assets/produto3.PNG';
 
-function Products({product1, product2, product3}){
+function Products(props){
     
     return(
 
     <div className="fila1-products">
-        <div className="product-list">
+
+        <img src={produto1}/>
+        <h5>{props.product}</h5>
+                          
+
+ 
+
+
+        {/*<div className="product-list">
 
             <div className="product1">
                 <img src={produto1}/>
@@ -49,7 +57,7 @@ function Products({product1, product2, product3}){
             </div>
                          
             
-        </div>
+        </div>*/}
     </div>
 
     )
