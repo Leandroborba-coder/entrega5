@@ -13,6 +13,22 @@ function App() {
   const[productstest, setProductstest] = useState(["natural whey 500g (28g de proteína) - jabuticaba", "natural whey 500g (28g de proteína) - morango", "natural whey 500g (28g de proteína) - cookies and cream"])  
 
 
+  function addProduct() {
+      const length = products.length;
+
+      const newProduct = {
+        id:length + 1,
+        brand: 'natural whey 500g (28g de proteína) - cookies and cream'
+
+      }
+
+      //concacetena esse objeto na nossa lista
+      const newProductList = products.concat(newProduct);
+
+      setProducts(newProductList);
+
+  }
+
   return (
 
     <div>
@@ -28,6 +44,8 @@ function App() {
         {products.map((product)=>{return(<Products product ={product.brand} key = {product.id}/>)})}
 
       </div>
+
+      <button onClick={addProduct}>Ver Mais</button>
 
       {/*<Products product1="natural whey 500g (28g de proteína) - jabuticaba" product2="natural whey 500g (28g de proteína) - morango" product3="natural whey 500g (28g de proteína) - cookies and cream"/>*/}
 
