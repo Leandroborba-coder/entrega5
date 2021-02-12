@@ -3,6 +3,7 @@ import './styles.css';
 import produto1 from '../Assets/produto1.jpeg';
 import produto2 from '../Assets/produto2.PNG';
 import produto3 from '../Assets/produto3.PNG';
+import { Link } from 'react-router-dom';
 
 
 function Products(props){

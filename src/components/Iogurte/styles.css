@@ -1,0 +1,28 @@
+
+
+.photo{
+
+    display:flex;
+    padding: 3em;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    
+}
+
+.text{
+   width: 35%;
+    
+}
+
+.mainha{
+    display: flex;
+    margin-bottom: 5em;
+
+}
+
+text h5{
+    display: flex;
+    flex-direction: column;
+    text-size-adjust: auto;
+}
